@@ -1,0 +1,34 @@
+/* CSS Cascacade Style Sheet (hoja de estilos en cascada) */
+
+body {
+  background-image: linear-gradient(to bottom right, lightskyblue, thistle);
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+ol {
+  background-color: beige;
+}
+img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: ease-out 0.3s all;
+}
+/* cuando pasa el muse por encima*/
+
+.importante {
+  font-weight: bold; /* negrita*/
+  background-color: gold;
+  font-style: italic;
+  padding: 3px;
+  margin: 2px;
+  border: 2px solid black;
+}
+
+.importante:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: ease-out 0.3s all;
+  display: inline-block;
+  /*Que tenga ancho y alto (block) pero que ocupe
+    solo el ancho del contenido del interior (inline) */
+}
